@@ -1,0 +1,21 @@
+# Accessible Music Applications
+
+ - Most cats use iphone
+
+## 1. Accessible Metronome
+     - High Contrast
+     - Keypad for Tempo
+     - Subdivisions
+     - Other features
+
+## 2. Music OCR that returns sound
+     - PDF 
+        -> MusicXML
+        -> MIDI 
+     - Also screen reader/spoken feedback
+     - Braille Music feedback
+
+## 3. Accessible transcription tool
+    - Transcribes a single line melody into notation
+
+## 4. Braille Music creation for iOS
