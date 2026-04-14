@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Metronome</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Pulse</h1>
+      <div class="tempo-display" aria-live="polite" aria-atomic="true">
+        <span class="value" id="tempo-value">120</span>
+        <span class="unit">BPM</span>
+      </div>
+    </header>
+
+    <section class="controls" aria-label="Tempo keypad">
+      <button data-key="1">1</button>
+      <button data-key="2">2</button>
+      <button data-key="3">3</button>
+      <button data-key="4">4</button>
+      <button data-key="5">5</button>
+      <button data-key="6">6</button>
+      <button data-key="7">7</button>
+      <button data-key="8">8</button>
+      <button data-key="9">9</button>
+      <button class="special" data-key="CLR">CLR</button>
+      <button data-key="0">0</button>
+      <button class="special danger" data-key="DEL">DEL</button>
+    </section>
+
+    <section class="playback">
+      <button id="play-toggle" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path id="play-icon" d="M8 5v14l11-7z" />
+        </svg>
+        <span id="play-label">Play</span>
+      </button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
